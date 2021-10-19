@@ -1,1 +1,13 @@
+##code
+DataAndLabel_multi_files.py---Merge six sensors' data according to time order; Extract labels from excel files; Incorporate labels into sensor data
+                              note: This code applies to the situation where there are multiple label files.
 
+DataAndLabel_single_file.py---Merge six sensors' data according to time order; Extract labels from excel files; Incorporate labels into sensor data
+                              note: This code applies to the situation where there is only one label file.
+
+Delete_Data_not_Labelled.py---Delete sensor data which have no corresponding labels (the onset and offset of the sensor data and the labels are not strictly same)  
+
+Normalize_Data.py---Normalize sensor data by subtracting mean and dividing variance (different sensor has different data scales)
+
+##20210419_0914
+Here is a sample of raw data of a student in a certain period. The whole dataset contains nine students, each with several periods.
