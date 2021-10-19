@@ -26,7 +26,6 @@ Average heart rate extracted from the BVP signal.The first row is the initial ti
 The second row is the sample rate expressed in Hz.
 
 
-tags.csv
-Event mark times.
-Each row corresponds to a physical button press on the device; the same time as the status LED is first illuminated.
-The time is expressed as a unix timestamp in UTC and it is synchronized with initial time of the session indicated in the related data files from the corresponding session.
+filename.xlsx
+Labels recorded by different coders denoted by C_i. AB_A, AB_B, AB_C, AB_D, AB_E, EA, EB forms the category of violent actions. 
+
